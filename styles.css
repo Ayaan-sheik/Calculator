@@ -4,7 +4,7 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: rgba(2, 106, 101, 0.99);
+    background-color: rgba(25, 20, 20, 1);
 }
 
 #calculator{
@@ -12,15 +12,17 @@ body{
     height:500px;
     padding:20px;
     flex-direction: column;
-    background-color: rgba(10, 128, 126, 0.93);
+    background-color: rgb(215, 221, 217);
     border-radius: 15px;
     box-shadow: 10px black;
     gap:10px;
     display: flex; 
+    box-shadow: 0px 2px 2px rgb(251, 251, 251);
+
 }
 
 .result{
-    background-color: rgb(51, 49, 49);
+    background-color: rgb(81, 78, 78);
     min-height: 85px;
     border-radius: 5px;
     display: flex;
@@ -28,7 +30,7 @@ body{
     align-items: center;
     font-size: 36px;
     padding-right:10px;
-    
+    border: 2px solid rgba(25, 20, 20, 1)
 }
 .buttons{
     display:flex;
@@ -49,11 +51,39 @@ button{
     flex:1;
     border-radius: 5px;
     outline: none;
-    color: white;
-    background-color: rgba(10, 128, 126, 0.93);
+    color: rgb(24, 23, 23);
+    border: 2px solid rgba(238, 75, 5, 0.862);
+    background-color: rgb(216, 211, 211);
     padding: 10px;
     width: auto;
     aspect-ratio: 1/1;
+    font-size: 18px;
+    box-shadow: 0px 2px 2px rgb(251, 251, 251);
+}
+
+.eigh{
+    border: 2px solid rgba(234, 15, 227, 0.862);
+}
+
+.one,.div,.six,#sev,.equal{
+    border: 2px solid rgba(15, 243, 68, 0.862);
+}
+.doub,.plus{
+    border: 2px solid rgba(247, 50, 50, 0.862);
+}
+.three,.AC,.five,.minus,.zero{
+    border: 2px solid rgba(12, 214, 250, 0.862);
+}
+.mul,.DEL,.four{
+    border: 2px solid rgba(234, 15, 227, 0.862);
+}
+
+
+
+
+
+button:hover{
+    background-color: white;
 }
 
 .row .equal{
